@@ -1,5 +1,5 @@
 import {Button} from "@/components/ui/button.tsx"
-import {Github, Linkedin, Mail, Twitter} from "lucide-react"
+import {Github, Linkedin, Mail} from "lucide-react"
 import ProjectCard from "@/components/project-card.tsx";
 import TechStack from "@/components/tech-stack.tsx";
 import ContactForm from "@/components/contact-form.tsx";
@@ -43,31 +43,29 @@ export default function PortfolioLayout() {
                                     Software Engineer
                                 </h1>
                                 <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-                                    Building digital experiences with modern technologies. Focused on creating elegant
-                                    solutions to
-                                    complex problems.
+                                    Experienced Software Engineer with over 2 years in the industry, specializing in Web
+                                    Fullstack Development (React, Angular), Mobile Development (Flutter), Data Analysis,
+                                    UI/UX Design (Figma), and AI Engineering. Adept at designing and developing
+                                    scalable, high-performance applications with a strong focus on user experience and
+                                    data-driven decision-making. Passionate about leveraging cutting-edge technologies
+                                    to build efficient, user-centric solutions. Skilled in collaborating across teams to
+                                    deliver impactful software products that drive business success.
                                 </p>
                             </div>
                             <div className="space-x-4">
-                                <Link to="https://github.com" target="_blank">
+                                <Link to="https://github.com/manhvipro123" target="_blank">
                                     <Button variant="outline" size="icon">
                                         <Github className="h-4 w-4"/>
                                         <span className="sr-only">GitHub</span>
                                     </Button>
                                 </Link>
-                                <Link to="https://linkedin.com" target="_blank">
+                                <Link to="https://www.linkedin.com/in/ducmanh1810/" target="_blank">
                                     <Button variant="outline" size="icon">
                                         <Linkedin className="h-4 w-4"/>
                                         <span className="sr-only">LinkedIn</span>
                                     </Button>
                                 </Link>
-                                <Link to="https://twitter.com" target="_blank">
-                                    <Button variant="outline" size="icon">
-                                        <Twitter className="h-4 w-4"/>
-                                        <span className="sr-only">Twitter</span>
-                                    </Button>
-                                </Link>
-                                <Link to="mailto:hello@example.com">
+                                <Link to="mailto:manhvp1810@gmail.com">
                                     <Button variant="outline" size="icon">
                                         <Mail className="h-4 w-4"/>
                                         <span className="sr-only">Email</span>
@@ -85,21 +83,21 @@ export default function PortfolioLayout() {
                             <ProjectCard
                                 title="E-commerce Platform"
                                 description="A full-stack e-commerce platform built with Next.js, Prisma, and Stripe integration."
-                                image="/placeholder.svg?height=400&width=600"
+                                image="https://images.ctfassets.net/lzny33ho1g45/6fQdc54nNz8mgDLVrroe9q/10759d0461920a3bb853d4fa4f35d3c2/Best_eCommerce_platforms.jpg?w=1520&fm=jpg&q=31&fit=thumb&h=760"
                                 link="https://github.com"
                                 tags={["Next.js", "Prisma", "Stripe"]}
                             />
                             <ProjectCard
                                 title="Task Management App"
                                 description="A real-time task management application with team collaboration features."
-                                image="/placeholder.svg?height=400&width=600"
+                                image="https://vectopus.com/_next/image?url=https%3A%2F%2Fcdn.vectopus.com%2Fgetillustrations%2Fillustrations%2F1565692729B5%2F7DE9DFA1E4AB%2Fuploads-task-management-tasks-task-workshop-personal-goals-target-achievement-accomplishment-1024.png&w=3840&q=75"
                                 link="https://github.com"
                                 tags={["React", "Node.js", "Socket.io"]}
                             />
                             <ProjectCard
                                 title="AI Chat Interface"
                                 description="An AI-powered chat interface with natural language processing capabilities."
-                                image="/placeholder.svg?height=400&width=600"
+                                image="https://img.freepik.com/free-vector/chatbot-conversation-vectorart_78370-4105.jpg"
                                 link="https://github.com"
                                 tags={["OpenAI", "Next.js", "TailwindCSS"]}
                             />

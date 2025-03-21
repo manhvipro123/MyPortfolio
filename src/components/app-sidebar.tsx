@@ -1,11 +1,8 @@
 import * as React from "react"
 import {
-    AudioWaveform,
-    Command,
-    Frame,
+    Bot, CalendarCheck2Icon,
     GalleryVerticalEnd,
-    Map,
-    PieChart,
+    ShoppingBasketIcon,
     SquareTerminal,
 } from "lucide-react"
 
@@ -26,23 +23,13 @@ const data = {
     user: {
         name: "shadcn",
         email: "m@example.com",
-        avatar: "/avatars/shadcn.jpg",
+        avatar: "https://github.com/shadcn.png",
     },
     teams: [
         {
-            name: "Acme Inc",
+            name: "Mikademy LTD",
             logo: GalleryVerticalEnd,
             plan: "Enterprise",
-        },
-        {
-            name: "Acme Corp.",
-            logo: AudioWaveform,
-            plan: "Startup",
-        },
-        {
-            name: "Evil Corp.",
-            logo: Command,
-            plan: "Free",
         },
     ],
     navMain: [
@@ -65,19 +52,19 @@ const data = {
     ],
     projects: [
         {
-            name: "Design Engineering",
+            name: "E-commerce Platform",
             url: "#",
-            icon: Frame,
+            icon: ShoppingBasketIcon,
         },
         {
-            name: "Sales & Marketing",
+            name: "Task Management App",
             url: "#",
-            icon: PieChart,
+            icon: CalendarCheck2Icon,
         },
         {
-            name: "Travel",
+            name: "AI Chat Interface",
             url: "#",
-            icon: Map,
+            icon: Bot,
         },
     ],
 }
